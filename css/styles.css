@@ -236,3 +236,14 @@ text-align: center;
 .footer-phone:focus{
     color: var(--accent-color);
     }
+
+/* Портфоліо */
+
+.portfolio-filter-btn{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background-color: var(--background-comand);
+    border: 0;
+}
