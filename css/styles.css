@@ -5,8 +5,11 @@
     --button-text-color: #FFFFFF;
     --footer-phone-mail-color:rgba(255, 255, 255, 0.6);
     --background-comand: #F5F4FA;
-    --white: #ffffff;
     --background-color-team: #ffffff;
+    --footer-logo-white: #ffffff;
+    --background-footer: #2F303A;
+
+
 
 }
 
@@ -148,7 +151,6 @@ body{
 }
 
 .team-list{
-    list-style-type: none; 
     background-color: var(--background-color-team)
 }
 
@@ -160,7 +162,6 @@ text-align: center;
 }
 
 .team-position{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -170,7 +171,7 @@ text-align: center;
 /* ---------------------FOOTER------------------------- */
 
 .footer{
-    background-color: #2F303A;;
+    background-color: var(--background-footer);
 }
 
 .footer-logo{
@@ -180,7 +181,7 @@ text-align: center;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #FFFFFF; 
+    color: var(--footer-logo-white); 
 }
 
 .footer-logo-web{
