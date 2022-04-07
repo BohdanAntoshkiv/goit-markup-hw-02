@@ -6,7 +6,7 @@
     --footer-phone-mail-color:rgba(255, 255, 255, 0.6);
     --background-comand: #F5F4FA;
     --white: #ffffff;
-
+    --background-color-team: #ffffff;
 
 }
 
@@ -24,15 +24,14 @@ body{
     list-style: none;
 }
 
-/* header */
+.link{
+    list-style-type: none;
+    text-decoration: none;
+}
 
-/* .header
-
-.header-nav */
 
 
 .header-logo{
-    text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -51,34 +50,19 @@ body{
     color: var(--accent-color);
     }
 
-/* .header-nav-link{
-
-} */
-
 .header-link{
-    text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
 
-/* .link-nav{
-
-} */
-
-
-/* .header-contacts{
-
-} */
 
 .header-link-contact{
-    text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-text-color);
-
 }
 
     
@@ -89,7 +73,12 @@ body{
     color: var(--accent-color)
 }
 
-/* header */
+/* ---------------------MAIN------------------------- */
+
+
+
+/* ---------------------БАННЕР------------------------- */
+
 .hero{
     background-color: #2F303A
     ;
@@ -116,20 +105,16 @@ body{
     color: var(--button-text-color);
     background-color: var(--accent-color);
 
+    cursor: pointer;
+
 }
 
 /* Особливості */
-
-
-.features-list{
-    list-style-type: none;
-}
 
 .features-list-item-header{
     font-weight: 700;
     line-height: 1.14;
 }
-
 
 .features-text{
     line-height: 1.7;
@@ -139,10 +124,6 @@ body{
 
 /* Чим ми займаємося */
 
-.services-list{
-
-    list-style-type: none;
-}
 
 .servises-header{
 
@@ -168,11 +149,11 @@ body{
 
 .team-list{
     list-style-type: none; 
-    background-color: #FFFFFF;
+    background-color: var(--background-color-team)
 }
 
 .team-name{
-    font-weight: 500;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
@@ -186,7 +167,7 @@ text-align: center;
     color: var(--second-text-color);
 }
 
-/* Футер */
+/* ---------------------FOOTER------------------------- */
 
 .footer{
     background-color: #2F303A;;
@@ -211,20 +192,16 @@ text-align: center;
     color: var(--accent-color);
     }
 
-.footer-list{
-    list-style-type: none;
-    }
+
 .footer-address-map{
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
     color: var(--white);
 }
 
 .footer-mail, .footer-phone{
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
     color: var(--footer-phone-mail-color);
 }
 
@@ -240,10 +217,22 @@ text-align: center;
 /* Портфоліо */
 
 .portfolio-filter-btn{
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     background-color: var(--background-comand);
     border: 0;
+    
+    cursor: pointer;
+}
+
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus{
+    color: var(--button-text-color);
+    background-color: var(--accent-color);
+}
+
+.project-list-text{
+    line-height: 1.88;
+    color: var(--second-text-color);
 }
