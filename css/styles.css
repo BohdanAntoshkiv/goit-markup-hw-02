@@ -6,8 +6,10 @@
     --footer-phone-mail-color:rgba(255, 255, 255, 0.6);
     --background-comand: #F5F4FA;
     --background-color-team: #ffffff;
-    --footer-logo-white: #ffffff;
+    --footer-addres-white: #ffffff;
     --background-footer: #2F303A;
+    --footer-logo-white: #ffffff
+    
 
 
 
@@ -197,7 +199,7 @@ text-align: center;
 .footer-address-map{
     text-decoration: none;
     font-style: normal;
-    color: var(--white);
+    color: var(--footer-addres-white);
 }
 
 .footer-mail, .footer-phone{
