@@ -4,11 +4,14 @@
     --second-text-color:#757575 ;
     --button-text-color: #FFFFFF;
     --footer-phone-mail-color:rgba(255, 255, 255, 0.6);
-    --background-comand: #F5F4FA;
-    --background-color-team: #ffffff;
+    --background-team: #F5F4FA;
+    --background-team-list: #ffffff;
     --footer-addres-white: #ffffff;
     --background-footer: #2F303A;
-    --footer-logo-white: #ffffff
+    --footer-logo-white: #ffffff;
+    --hover-color-btn: #188CE8;
+    --background-portfolio-btn: #F5F4FA;
+
     
 
 
@@ -70,6 +73,9 @@ body{
     color: var(--second-text-color);
 }
 
+.header-nav-link .header-link.active{
+color: var(--accent-color);
+}
     
 .header-link:hover,
 .header-link:focus,
@@ -96,11 +102,13 @@ body{
     letter-spacing: 0.06em;
     color: var(--button-text-color);
     text-align: center;
+    text-transform: uppercase ;
     
 
 }
 
 .hero-btn{
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
@@ -110,15 +118,25 @@ body{
     color: var(--button-text-color);
     background-color: var(--accent-color);
 
+    border: 0;
+    border-radius: 4px;
+
     cursor: pointer;
 
 }
+
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var(--hover-color-btn);
+}
+
 
 /* Особливості */
 
 .features-list-item-header{
     font-weight: 700;
     line-height: 1.14;
+    text-transform: uppercase ;
 }
 
 .features-text{
@@ -141,7 +159,7 @@ body{
 /* Команда */
 
 .team{
-    background-color: var(--background-comand);
+    background-color: var(--background-team);
 }
 
 .team-header{
@@ -152,8 +170,8 @@ body{
     
 }
 
-.team-list{
-    background-color: var(--background-color-team)
+.team-list-item{
+    background-color: var(--background-team-list)
 }
 
 .team-name{
@@ -223,11 +241,16 @@ text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    background-color: var(--background-comand);
+    background-color: var(--background-portfolio-btn);
     border: 0;
+    border-radius: 4px;
     
     cursor: pointer;
 }
+.portfolio-filter .portfolio-filter-btn.active{
+    background-color: var(--hover-color-btn);
+    color: var(--button-text-color);
+    }
 
 .portfolio-filter-btn:hover,
 .portfolio-filter-btn:focus{
