@@ -11,6 +11,10 @@
     --footer-logo-white: #ffffff;
     --hover-color-btn: #188CE8;
     --background-portfolio-btn: #F5F4FA;
+    --background-page: #ffffff;
+    --background-hero: #2F303A;
+
+
 
     
 
@@ -22,11 +26,8 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: var(--main-text-color);
-    background: #FFFFFF;
-    letter-spacing: 0.03em;
-    
-
-}
+    background: var(--background-page);
+  }
 
 .list{
     list-style: none;
@@ -35,6 +36,10 @@ body{
 .link{
     list-style-type: none;
     text-decoration: none;
+}
+
+.btn{
+    font-family: 'Roboto';
 }
 
 
@@ -91,7 +96,7 @@ color: var(--accent-color);
 /* ---------------------БАННЕР------------------------- */
 
 .hero{
-    background-color: #2F303A
+    background-color: var(--background-hero)
     ;
 }
 
@@ -108,7 +113,7 @@ color: var(--accent-color);
 }
 
 .hero-btn{
-    font-family: 'Roboto';
+    
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
