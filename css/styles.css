@@ -1,3 +1,5 @@
+
+
 :root {
     --accent-color: #2196f3;
     --main-text-color: #212121;
@@ -14,12 +16,10 @@
     --background-page: #ffffff;
     --background-hero: #2F303A;
 
+}
 
-
-    
-
-
-
+.container{
+    outline: 2px solid tomato;
 }
 
 body{
@@ -96,8 +96,7 @@ color: var(--accent-color);
 /* ---------------------БАННЕР------------------------- */
 
 .hero{
-    background-color: var(--background-hero)
-    ;
+    background-color: var(--background-hero);
 }
 
 .hero-title{
